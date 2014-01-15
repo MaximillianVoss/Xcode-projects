@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8433F1B31887109600D5F675 /* Coin app icon non retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433F1AD1887109600D5F675 /* Coin app icon non retina.png */; };
+		8433F1B41887109600D5F675 /* Coin app icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433F1AE1887109600D5F675 /* Coin app icon.png */; };
+		8433F1B51887109600D5F675 /* Coin settings non retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433F1AF1887109600D5F675 /* Coin settings non retina.png */; };
+		8433F1B61887109600D5F675 /* Coin settings retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433F1B01887109600D5F675 /* Coin settings retina.png */; };
+		8433F1B71887109600D5F675 /* Coin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8433F1B11887109600D5F675 /* Coin.jpg */; };
+		8433F1B81887109600D5F675 /* Coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 8433F1B21887109600D5F675 /* Coin.png */; };
+		8485116618566555002C35DF /* CurrenciesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485116518566555002C35DF /* CurrenciesViewController.m */; };
+		8485116818566912002C35DF /* CustomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8485116718566912002C35DF /* CustomTableCell.xib */; };
+		8485116B18566CE6002C35DF /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485116A18566CE6002C35DF /* CustomTableCell.m */; };
 		8485CFC318528EE10040786A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8485CFC218528EE10040786A /* Foundation.framework */; };
 		8485CFC518528EE10040786A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8485CFC418528EE10040786A /* CoreGraphics.framework */; };
 		8485CFC718528EE10040786A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8485CFC618528EE10040786A /* UIKit.framework */; };
@@ -14,13 +23,14 @@
 		8485CFCF18528EE10040786A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485CFCE18528EE10040786A /* main.m */; };
 		8485CFD318528EE10040786A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485CFD218528EE10040786A /* AppDelegate.m */; };
 		8485CFD618528EE10040786A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8485CFD418528EE10040786A /* Main.storyboard */; };
-		8485CFD918528EE10040786A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485CFD818528EE10040786A /* ViewController.m */; };
-		8485CFDB18528EE10040786A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8485CFDA18528EE10040786A /* Images.xcassets */; };
 		8485CFE218528EE10040786A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8485CFE118528EE10040786A /* XCTest.framework */; };
 		8485CFE318528EE10040786A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8485CFC218528EE10040786A /* Foundation.framework */; };
 		8485CFE418528EE10040786A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8485CFC618528EE10040786A /* UIKit.framework */; };
 		8485CFEC18528EE10040786A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8485CFEA18528EE10040786A /* InfoPlist.strings */; };
 		8485CFEE18528EE10040786A /* CurrencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485CFED18528EE10040786A /* CurrencyTests.m */; };
+		8485CFFC1854AA5F0040786A /* Load_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485CFD818528EE10040786A /* Load_ViewController.m */; };
+		8485D0431855D98B0040786A /* CurrencyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485D0421855D98B0040786A /* CurrencyItem.m */; };
+		848ACDC0185E0E2500E00D99 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848ACDBF185E0E2500E00D99 /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8433F1AD1887109600D5F675 /* Coin app icon non retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coin app icon non retina.png"; path = "Pics/Coin app icon non retina.png"; sourceTree = "<group>"; };
+		8433F1AE1887109600D5F675 /* Coin app icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coin app icon.png"; path = "Pics/Coin app icon.png"; sourceTree = "<group>"; };
+		8433F1AF1887109600D5F675 /* Coin settings non retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coin settings non retina.png"; path = "Pics/Coin settings non retina.png"; sourceTree = "<group>"; };
+		8433F1B01887109600D5F675 /* Coin settings retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coin settings retina.png"; path = "Pics/Coin settings retina.png"; sourceTree = "<group>"; };
+		8433F1B11887109600D5F675 /* Coin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Coin.jpg; path = Pics/Coin.jpg; sourceTree = "<group>"; };
+		8433F1B21887109600D5F675 /* Coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Coin.png; path = Pics/Coin.png; sourceTree = "<group>"; };
+		8485116418566555002C35DF /* CurrenciesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrenciesViewController.h; sourceTree = "<group>"; };
+		8485116518566555002C35DF /* CurrenciesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrenciesViewController.m; sourceTree = "<group>"; };
+		8485116718566912002C35DF /* CustomTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableCell.xib; sourceTree = "<group>"; };
+		8485116918566CE6002C35DF /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		8485116A18566CE6002C35DF /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
 		8485CFBF18528EE10040786A /* Currency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Currency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8485CFC218528EE10040786A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8485CFC418528EE10040786A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +66,16 @@
 		8485CFD118528EE10040786A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8485CFD218528EE10040786A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8485CFD518528EE10040786A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8485CFD718528EE10040786A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8485CFD818528EE10040786A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8485CFDA18528EE10040786A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8485CFD818528EE10040786A /* Load_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Load_ViewController.m; sourceTree = "<group>"; };
 		8485CFE018528EE10040786A /* CurrencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8485CFE118528EE10040786A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8485CFE918528EE10040786A /* CurrencyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyTests-Info.plist"; sourceTree = "<group>"; };
 		8485CFEB18528EE10040786A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8485CFED18528EE10040786A /* CurrencyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyTests.m; sourceTree = "<group>"; };
+		8485CFF81854A8800040786A /* Load_ViewController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = Load_ViewController.h; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
+		8485D0411855D98B0040786A /* CurrencyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyItem.h; sourceTree = "<group>"; };
+		8485D0421855D98B0040786A /* CurrencyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyItem.m; sourceTree = "<group>"; };
+		848ACDBF185E0E2500E00D99 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +102,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8433F1AC1887100F00D5F675 /* Pics */ = {
+			isa = PBXGroup;
+			children = (
+				8433F1AD1887109600D5F675 /* Coin app icon non retina.png */,
+				8433F1AE1887109600D5F675 /* Coin app icon.png */,
+				8433F1AF1887109600D5F675 /* Coin settings non retina.png */,
+				8433F1B01887109600D5F675 /* Coin settings retina.png */,
+				8433F1B11887109600D5F675 /* Coin.jpg */,
+				8433F1B21887109600D5F675 /* Coin.png */,
+			);
+			name = Pics;
+			sourceTree = "<group>";
+		};
 		8485CFB618528EE10040786A = {
 			isa = PBXGroup;
 			children = (
@@ -115,10 +151,17 @@
 				8485CFD118528EE10040786A /* AppDelegate.h */,
 				8485CFD218528EE10040786A /* AppDelegate.m */,
 				8485CFD418528EE10040786A /* Main.storyboard */,
-				8485CFD718528EE10040786A /* ViewController.h */,
-				8485CFD818528EE10040786A /* ViewController.m */,
-				8485CFDA18528EE10040786A /* Images.xcassets */,
+				8485CFF81854A8800040786A /* Load_ViewController.h */,
+				8485CFD818528EE10040786A /* Load_ViewController.m */,
 				8485CFC918528EE10040786A /* Supporting Files */,
+				8485D0411855D98B0040786A /* CurrencyItem.h */,
+				8485D0421855D98B0040786A /* CurrencyItem.m */,
+				8485116418566555002C35DF /* CurrenciesViewController.h */,
+				8485116518566555002C35DF /* CurrenciesViewController.m */,
+				8485116718566912002C35DF /* CustomTableCell.xib */,
+				8485116918566CE6002C35DF /* CustomTableCell.h */,
+				8485116A18566CE6002C35DF /* CustomTableCell.m */,
+				848ACDBF185E0E2500E00D99 /* Images-2.xcassets */,
 			);
 			path = Currency;
 			sourceTree = "<group>";
@@ -126,6 +169,7 @@
 		8485CFC918528EE10040786A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8433F1AC1887100F00D5F675 /* Pics */,
 				8485CFCA18528EE10040786A /* Currency-Info.plist */,
 				8485CFCB18528EE10040786A /* InfoPlist.strings */,
 				8485CFCE18528EE10040786A /* main.m */,
@@ -228,9 +272,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8485CFDB18528EE10040786A /* Images.xcassets in Resources */,
+				8433F1B41887109600D5F675 /* Coin app icon.png in Resources */,
+				8433F1B61887109600D5F675 /* Coin settings retina.png in Resources */,
+				8433F1B71887109600D5F675 /* Coin.jpg in Resources */,
+				8433F1B81887109600D5F675 /* Coin.png in Resources */,
+				8433F1B31887109600D5F675 /* Coin app icon non retina.png in Resources */,
 				8485CFCD18528EE10040786A /* InfoPlist.strings in Resources */,
+				848ACDC0185E0E2500E00D99 /* Images-2.xcassets in Resources */,
 				8485CFD618528EE10040786A /* Main.storyboard in Resources */,
+				8485116818566912002C35DF /* CustomTableCell.xib in Resources */,
+				8433F1B51887109600D5F675 /* Coin settings non retina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8485CFD918528EE10040786A /* ViewController.m in Sources */,
 				8485CFD318528EE10040786A /* AppDelegate.m in Sources */,
+				8485116618566555002C35DF /* CurrenciesViewController.m in Sources */,
 				8485CFCF18528EE10040786A /* main.m in Sources */,
+				8485CFFC1854AA5F0040786A /* Load_ViewController.m in Sources */,
+				8485D0431855D98B0040786A /* CurrencyItem.m in Sources */,
+				8485116B18566CE6002C35DF /* CustomTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,8 +432,6 @@
 		8485CFF218528EE10040786A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Currency/Currency-Prefix.pch";
 				INFOPLIST_FILE = "Currency/Currency-Info.plist";
@@ -391,8 +443,6 @@
 		8485CFF318528EE10040786A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Currency/Currency-Prefix.pch";
 				INFOPLIST_FILE = "Currency/Currency-Info.plist";
@@ -462,6 +512,7 @@
 				8485CFF318528EE10040786A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8485CFF418528EE10040786A /* Build configuration list for PBXNativeTarget "CurrencyTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +521,7 @@
 				8485CFF618528EE10040786A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

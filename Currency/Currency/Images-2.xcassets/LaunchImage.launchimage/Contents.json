@@ -1,35 +1,31 @@
 {
   "images" : [
     {
-      "orientation" : "portrait",
+      "orientation" : "landscape",
       "idiom" : "ipad",
-      "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "Coin.png",
+      "extent" : "full-screen",
       "scale" : "1x"
     },
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "Coin-2.png",
-      "scale" : "1x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "ipad",
       "extent" : "full-screen",
-      "minimum-system-version" : "7.0",
-      "filename" : "Coin-1.png",
       "scale" : "2x"
     },
     {
-      "orientation" : "landscape",
+      "orientation" : "portrait",
       "idiom" : "ipad",
-      "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "Coin-3.png",
+      "extent" : "full-screen",
+      "scale" : "1x"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "extent" : "full-screen",
       "scale" : "2x"
     }
   ],
