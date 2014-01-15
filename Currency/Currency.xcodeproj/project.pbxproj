@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8485CFC318528EE10040786A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8485CFC218528EE10040786A /* Foundation.framework */; };
+		8485CFC518528EE10040786A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8485CFC418528EE10040786A /* CoreGraphics.framework */; };
+		8485CFC718528EE10040786A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8485CFC618528EE10040786A /* UIKit.framework */; };
+		8485CFCD18528EE10040786A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8485CFCB18528EE10040786A /* InfoPlist.strings */; };
+		8485CFCF18528EE10040786A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485CFCE18528EE10040786A /* main.m */; };
+		8485CFD318528EE10040786A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485CFD218528EE10040786A /* AppDelegate.m */; };
+		8485CFD618528EE10040786A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8485CFD418528EE10040786A /* Main.storyboard */; };
+		8485CFD918528EE10040786A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485CFD818528EE10040786A /* ViewController.m */; };
+		8485CFDB18528EE10040786A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8485CFDA18528EE10040786A /* Images.xcassets */; };
+		8485CFE218528EE10040786A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8485CFE118528EE10040786A /* XCTest.framework */; };
+		8485CFE318528EE10040786A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8485CFC218528EE10040786A /* Foundation.framework */; };
+		8485CFE418528EE10040786A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8485CFC618528EE10040786A /* UIKit.framework */; };
+		8485CFEC18528EE10040786A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8485CFEA18528EE10040786A /* InfoPlist.strings */; };
+		8485CFEE18528EE10040786A /* CurrencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485CFED18528EE10040786A /* CurrencyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8485CFE518528EE10040786A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8485CFB718528EE10040786A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8485CFBE18528EE10040786A;
+			remoteInfo = Currency;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8485CFBF18528EE10040786A /* Currency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Currency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8485CFC218528EE10040786A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8485CFC418528EE10040786A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8485CFC618528EE10040786A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8485CFCA18528EE10040786A /* Currency-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Currency-Info.plist"; sourceTree = "<group>"; };
+		8485CFCC18528EE10040786A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8485CFCE18528EE10040786A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8485CFD018528EE10040786A /* Currency-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Currency-Prefix.pch"; sourceTree = "<group>"; };
+		8485CFD118528EE10040786A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8485CFD218528EE10040786A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8485CFD518528EE10040786A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8485CFD718528EE10040786A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8485CFD818528EE10040786A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8485CFDA18528EE10040786A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8485CFE018528EE10040786A /* CurrencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8485CFE118528EE10040786A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8485CFE918528EE10040786A /* CurrencyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyTests-Info.plist"; sourceTree = "<group>"; };
+		8485CFEB18528EE10040786A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8485CFED18528EE10040786A /* CurrencyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8485CFBC18528EE10040786A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8485CFC518528EE10040786A /* CoreGraphics.framework in Frameworks */,
+				8485CFC718528EE10040786A /* UIKit.framework in Frameworks */,
+				8485CFC318528EE10040786A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8485CFDD18528EE10040786A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8485CFE218528EE10040786A /* XCTest.framework in Frameworks */,
+				8485CFE418528EE10040786A /* UIKit.framework in Frameworks */,
+				8485CFE318528EE10040786A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8485CFB618528EE10040786A = {
+			isa = PBXGroup;
+			children = (
+				8485CFC818528EE10040786A /* Currency */,
+				8485CFE718528EE10040786A /* CurrencyTests */,
+				8485CFC118528EE10040786A /* Frameworks */,
+				8485CFC018528EE10040786A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8485CFC018528EE10040786A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8485CFBF18528EE10040786A /* Currency.app */,
+				8485CFE018528EE10040786A /* CurrencyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8485CFC118528EE10040786A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8485CFC218528EE10040786A /* Foundation.framework */,
+				8485CFC418528EE10040786A /* CoreGraphics.framework */,
+				8485CFC618528EE10040786A /* UIKit.framework */,
+				8485CFE118528EE10040786A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8485CFC818528EE10040786A /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				8485CFD118528EE10040786A /* AppDelegate.h */,
+				8485CFD218528EE10040786A /* AppDelegate.m */,
+				8485CFD418528EE10040786A /* Main.storyboard */,
+				8485CFD718528EE10040786A /* ViewController.h */,
+				8485CFD818528EE10040786A /* ViewController.m */,
+				8485CFDA18528EE10040786A /* Images.xcassets */,
+				8485CFC918528EE10040786A /* Supporting Files */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		8485CFC918528EE10040786A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8485CFCA18528EE10040786A /* Currency-Info.plist */,
+				8485CFCB18528EE10040786A /* InfoPlist.strings */,
+				8485CFCE18528EE10040786A /* main.m */,
+				8485CFD018528EE10040786A /* Currency-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8485CFE718528EE10040786A /* CurrencyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8485CFED18528EE10040786A /* CurrencyTests.m */,
+				8485CFE818528EE10040786A /* Supporting Files */,
+			);
+			path = CurrencyTests;
+			sourceTree = "<group>";
+		};
+		8485CFE818528EE10040786A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8485CFE918528EE10040786A /* CurrencyTests-Info.plist */,
+				8485CFEA18528EE10040786A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8485CFBE18528EE10040786A /* Currency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8485CFF118528EE10040786A /* Build configuration list for PBXNativeTarget "Currency" */;
+			buildPhases = (
+				8485CFBB18528EE10040786A /* Sources */,
+				8485CFBC18528EE10040786A /* Frameworks */,
+				8485CFBD18528EE10040786A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Currency;
+			productName = Currency;
+			productReference = 8485CFBF18528EE10040786A /* Currency.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8485CFDF18528EE10040786A /* CurrencyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8485CFF418528EE10040786A /* Build configuration list for PBXNativeTarget "CurrencyTests" */;
+			buildPhases = (
+				8485CFDC18528EE10040786A /* Sources */,
+				8485CFDD18528EE10040786A /* Frameworks */,
+				8485CFDE18528EE10040786A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8485CFE618528EE10040786A /* PBXTargetDependency */,
+			);
+			name = CurrencyTests;
+			productName = CurrencyTests;
+			productReference = 8485CFE018528EE10040786A /* CurrencyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8485CFB718528EE10040786A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Microsoft;
+				TargetAttributes = {
+					8485CFDF18528EE10040786A = {
+						TestTargetID = 8485CFBE18528EE10040786A;
+					};
+				};
+			};
+			buildConfigurationList = 8485CFBA18528EE10040786A /* Build configuration list for PBXProject "Currency" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8485CFB618528EE10040786A;
+			productRefGroup = 8485CFC018528EE10040786A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8485CFBE18528EE10040786A /* Currency */,
+				8485CFDF18528EE10040786A /* CurrencyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8485CFBD18528EE10040786A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8485CFDB18528EE10040786A /* Images.xcassets in Resources */,
+				8485CFCD18528EE10040786A /* InfoPlist.strings in Resources */,
+				8485CFD618528EE10040786A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8485CFDE18528EE10040786A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8485CFEC18528EE10040786A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8485CFBB18528EE10040786A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8485CFD918528EE10040786A /* ViewController.m in Sources */,
+				8485CFD318528EE10040786A /* AppDelegate.m in Sources */,
+				8485CFCF18528EE10040786A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8485CFDC18528EE10040786A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8485CFEE18528EE10040786A /* CurrencyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8485CFE618528EE10040786A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8485CFBE18528EE10040786A /* Currency */;
+			targetProxy = 8485CFE518528EE10040786A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8485CFCB18528EE10040786A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8485CFCC18528EE10040786A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8485CFD418528EE10040786A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8485CFD518528EE10040786A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8485CFEA18528EE10040786A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8485CFEB18528EE10040786A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8485CFEF18528EE10040786A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8485CFF018528EE10040786A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8485CFF218528EE10040786A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Currency/Currency-Prefix.pch";
+				INFOPLIST_FILE = "Currency/Currency-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8485CFF318528EE10040786A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Currency/Currency-Prefix.pch";
+				INFOPLIST_FILE = "Currency/Currency-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8485CFF518528EE10040786A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Currency.app/Currency";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Currency/Currency-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CurrencyTests/CurrencyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8485CFF618528EE10040786A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Currency.app/Currency";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Currency/Currency-Prefix.pch";
+				INFOPLIST_FILE = "CurrencyTests/CurrencyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8485CFBA18528EE10040786A /* Build configuration list for PBXProject "Currency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8485CFEF18528EE10040786A /* Debug */,
+				8485CFF018528EE10040786A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8485CFF118528EE10040786A /* Build configuration list for PBXNativeTarget "Currency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8485CFF218528EE10040786A /* Debug */,
+				8485CFF318528EE10040786A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8485CFF418528EE10040786A /* Build configuration list for PBXNativeTarget "CurrencyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8485CFF518528EE10040786A /* Debug */,
+				8485CFF618528EE10040786A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8485CFB718528EE10040786A /* Project object */;
+}
